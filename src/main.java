@@ -26,23 +26,25 @@ public class main {
 			
 			//defines the object of minus? i guess.. idk how to explain it
 			minus minusObject = new minus();
-			//calls the object so it executes the code from the class plus
+			//calls the object so it executes the code from the class minus
 			minusObject.minus();
 			
 			break;
 			
 		case '/':
 			
-			//defines the object of minus? i guess.. idk how to explain it
+			//defines the object of divide? i guess.. idk how to explain it
 			divide divideObject = new divide();
-			//calls the object so it executes the code from the class plus
+			//calls the object so it executes the code from the class divide
 			divideObject.divide();
 			
 			break;
 			
 		case '*':
 			
+                        //defines the object of multiply? i guess... idk how to explain it
 			multiply multiplyObject = new multiply();
+                        //calls the object so it executes the code from the class multiply
 			multiplyObject.multiply();
 		}
 		
